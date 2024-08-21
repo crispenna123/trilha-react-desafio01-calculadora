@@ -1,7 +1,7 @@
-import Input from './components/Input';
-import Button from './components/Button';
+import Input from './components/Input/index.js';
+import Button from './components/Button/index.js';
 
-import { Container, Content, Row } from './styles';
+import { Container, Content, Row } from './styles.js';
 import { useState } from 'react';
 
 const App = () => {
